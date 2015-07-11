@@ -1,0 +1,13 @@
+#!/bin/sh
+
+dir="/usr/local/bin"
+if [ ! -d "$dir" ] ; then
+	echo "Error: /usr/local/bin does not exist.\n"
+	exit 1
+fi
+
+cp bck.py bck
+chmod +x bck
+
+# root required to access /usr
+sudo mv bck $dir

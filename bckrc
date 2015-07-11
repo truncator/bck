@@ -1,0 +1,14 @@
+#
+# Sample bckrc config.
+#   Copy to ~/.config/bck/bckrc and modify as needed.
+#
+
+# Server port.
+port = 22
+
+# Login info.
+user = user
+hostname = host
+
+# Output directory.
+output_dir = bck
