@@ -10,7 +10,7 @@ Installation
 chmod +x install && ./install
 ```
 
-`bck` is installed to `/usr/local/bin` by default. This can be changed in `install`.
+`bck` is installed to `~/bin` by default. This can be changed in `install`.
 
 Usage
 -----
